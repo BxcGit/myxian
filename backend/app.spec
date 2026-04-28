@@ -1,0 +1,142 @@
+# -*- mode: python ; coding: utf-8 -*-
+
+from PyInstaller.utils.hooks import collect_all, collect_submodules
+
+block_cipher = None
+
+# 收集所有隐藏导入
+hiddenimports = [
+    'uvicorn',
+    'uvicorn.logging',
+    'uvicorn.protocols',
+    'uvicorn.protocols.http',
+    'uvicorn.protocols.http.auto',
+    'uvicorn.protocols.websockets',
+    'uvicorn.protocols.websockets.auto',
+    'uvicorn.lifespan',
+    'uvicorn.lifespan.on',
+    'websockets',
+    'websockets.client',
+    'websockets.server',
+    'websockets.legacy',
+    'websockets.legacy.client',
+    'websockets.legacy.server',
+    'bcrypt',
+    'bcrypt._bcrypt',
+    'python_jose',
+    'python_jose.cryptography',
+    'passlib',
+    'passlib.context',
+    'passlib.hash',
+    'passlib.utils',
+    'pydantic',
+    'pydantic.fields',
+    'pydantic.main',
+    'fastapi',
+    'fastapi.middleware',
+    'starlette',
+    'starlette.middleware',
+    'starlette.responses',
+    'starlette.routing',
+    'sqlalchemy',
+    'sqlite3',
+    'requests',
+    'aiofiles',
+    'json',
+    'pathlib',
+    'typing',
+    'datetime',
+    'jwt',
+    'cryptography',
+    'cryptography.x509',
+    'cryptography.hazmat',
+    'cryptography.hazmat.primitives',
+    'cryptography.hazmat.backends',
+    'app.main',
+    'app.config',
+    'app.database',
+    'app.models',
+    'app.models.user',
+    'app.models.xianyu_account',
+    'app.models.product',
+    'app.models.session',
+    'app.models.message',
+    'app.routers',
+    'app.routers.auth',
+    'app.routers.xianyu_account',
+    'app.routers.product',
+    'app.routers.session',
+    'app.utils',
+    'app.utils.security',
+    'app.utils.auth',
+    'app.utils.logger',
+    'app.utils.middleware',
+    'app.xianyu',
+    'app.xianyu.ws_client',
+    'app.xianyu.xianyu_api',
+    'app.xianyu.parser',
+    'app.xianyu.handler_message',
+    'app.xianyu.account_context',
+    'app.xianyu.manual_manager',
+    'app.xianyu.token_manager',
+    'app.xianyu.heart_beat',
+    'app.xianyu.xianyu_utils',
+    'app.ai_agent',
+    'app.ai_agent.ai_agent',
+    'app.core',
+    'app.core.path_utils',
+]
+
+# 收集所有子模块
+hiddenimports += collect_submodules('app')
+hiddenimports += collect_submodules('uvicorn')
+hiddenimports += collect_submodules('websockets')
+
+a = Analysis(
+    ['run.py'],
+    pathex=[],
+    binaries=[],
+    datas=[
+        # 包含 prompts 和 .env (static 会在 build.py 中单独处理)
+        ('../prompts', 'prompts'),
+        ('.env', '.env'),
+    ],
+    hiddenimports=hiddenimports,
+    hookspath=[],
+    hooksconfig={},
+    runtime_hooks=[],
+    excludes=[],
+    win_no_prefer_redirects=False,
+    win_private_assemblies=False,
+    cipher=block_cipher,
+    noarchive=False,
+)
+
+pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
+
+exe = EXE(
+    pyz,
+    a.scripts,
+    [],
+    exclude_binaries=True,
+    name='myxianyu',
+    debug=False,
+    bootloader_ignore_signals=False,
+    strip=False,
+    console=True,
+    disable_windowed_traceback=False,
+    argv_emulation=False,
+    target_arch=None,
+    codesign_identity=None,
+    entitlements_file=None,
+)
+
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    category='console',
+    name='myxianyu',
+)

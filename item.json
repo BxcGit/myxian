@@ -1,0 +1,245 @@
+{
+  "api": "mtop.taobao.idle.pc.detail",
+  "data": {
+    "itemDO": {
+      "noPicItem": false,
+      "templateId": 0,
+      "worthBuySimilarFeeds": false,
+      "soldPrice": "1.50",
+      "itemLabelExtList": [
+        {
+          "valueId": 201449620,
+          "valueText": "软件安装包/序列号/激活码",
+          "channelCateId": 201449620,
+          "labelId": "193174263",
+          "labelType": "common",
+          "from": "newPublishChoice",
+          "propertyText": "分类",
+          "text": "软件安装包/序列号/激活码",
+          "propertyId": -10000,
+          "properties": "-10000##分类:201449620##软件安装包/序列号/激活码"
+        }
+      ],
+      "imageInfos": [
+        {
+          "major": true,
+          "photoSearchUrl": "https://h5.m.goofish.com/wow/moyu/moyu-project/idle-photo-search/pages/home?kun=true&wh_ttid=native&opaque=false&extra=%7B%22imageInfo%22%3A%7B%22bizCode%22%3A%22idledetail%22%2C%22reqFromPage%22%3A%22idle_detail%22%2C%22source%22%3A%22itempic%22%2C%22url%22%3A%22http%3A%2F%2Fimg.alicdn.com%2Fbao%2Fuploaded%2Fi1%2F3331027716%2FO1CN01SATlMo26rzAqWH1R8_%21%214611686018427384580-53-xy_item.heic_640x640q90.jpg%22%7D%7D",
+          "widthSize": 612,
+          "heightSize": 160,
+          "type": 0,
+          "url": "http://img.alicdn.com/bao/uploaded/i1/3331027716/O1CN01SATlMo26rzAqWH1R8_!!4611686018427384580-53-xy_item.heic",
+          "extraInfo": { "raw": "false", "isT": "false", "isH": "false" },
+          "labels": []
+        },
+        {
+          "major": false,
+          "photoSearchUrl": "https://h5.m.goofish.com/wow/moyu/moyu-project/idle-photo-search/pages/home?kun=true&wh_ttid=native&opaque=false&extra=%7B%22imageInfo%22%3A%7B%22bizCode%22%3A%22idledetail%22%2C%22reqFromPage%22%3A%22idle_detail%22%2C%22source%22%3A%22itempic%22%2C%22url%22%3A%22http%3A%2F%2Fimg.alicdn.com%2Fbao%2Fuploaded%2Fi2%2F3331027716%2FO1CN01TRbNMx26rzAwyKzYe_%21%214611686018427384580-53-xy_item.heic_640x640q90.jpg%22%7D%7D",
+          "widthSize": 812,
+          "heightSize": 956,
+          "type": 0,
+          "url": "http://img.alicdn.com/bao/uploaded/i2/3331027716/O1CN01TRbNMx26rzAwyKzYe_!!4611686018427384580-53-xy_item.heic",
+          "extraInfo": { "raw": "false", "isT": "false", "isH": "false" },
+          "labels": []
+        }
+      ],
+
+      "itemId": 1036457574142,
+      "GMT_CREATE_DATE_KEY": "2026-03-27 00:20:33",
+      "charitableItem": false,
+      "uiItemServiceDOList": [],
+      "minPrice": "1.5",
+      "maxPrice": "26",
+      "pcSupportTrade": true,
+      "commonTags": [],
+      "desc": "MiniMax-M2.7极速版软件资源MiniMax-M2.7-highspeed极速版订阅，400次模型调用/5小时，支持主流编程工具，OpenClaw agent可用，生成速度很快、开发、学习用～\n调不通的帮忙处理\n按月订阅，功能正常，需要的朋友可以私聊，喜欢直接拍，细节随时问我～\n下单送openclaw视频使用教程",
+      "descTagColor": "#FFF58300",
+      "itemType": "detailCommonBuy",
+      "simpleItem": true,
+      "skuList": [
+        {
+          "features": {
+            "sku_order_num": "0",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1个月",
+            "idleOriginalQuantity": "10"
+          },
+          "inventoryId": 1179342943195735646,
+          "itemId": 1036457574142,
+          "price": 2600,
+          "priceInCent": 2600,
+          "propertyList": [
+            {
+              "actualValueText": "1个月",
+              "enabled": true,
+              "propertyId": -1,
+              "propertySortOrder": 1,
+              "propertyText": "周期",
+              "status": 0,
+              "string": "-1:-1",
+              "valueId": -1,
+              "valueSortOrder": 0,
+              "valueText": "1个月"
+            }
+          ],
+          "quantity": 10,
+          "sellerId": 3331027716,
+          "skuId": 6219007459809
+        },
+        {
+          "features": {
+            "sku_order_num": "1",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1周",
+            "idleOriginalQuantity": "4"
+          },
+          "inventoryId": 1179342943195735647,
+          "itemId": 1036457574142,
+          "price": 800,
+          "priceInCent": 800,
+          "propertyList": [
+            {
+              "actualValueText": "1周",
+              "enabled": true,
+              "propertyId": -1,
+              "propertySortOrder": 1,
+              "propertyText": "周期",
+              "status": 0,
+              "string": "-1:-2",
+              "valueId": -2,
+              "valueSortOrder": 1,
+              "valueText": "1周"
+            }
+          ],
+          "quantity": 4,
+          "sellerId": 3331027716,
+          "skuId": 6219007459810
+        },
+        {
+          "features": {
+            "sku_order_num": "2",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1天（体验装）",
+            "idleOriginalQuantity": "9"
+          },
+          "inventoryId": 1179342943195735648,
+          "itemId": 1036457574142,
+          "price": 150,
+          "priceInCent": 150,
+          "propertyList": [
+            {
+              "actualValueText": "1天（体验装）",
+              "enabled": true,
+              "propertyId": -1,
+              "propertySortOrder": 1,
+              "propertyText": "周期",
+              "status": 0,
+              "string": "-1:-3",
+              "valueId": -3,
+              "valueSortOrder": 2,
+              "valueText": "1天（体验装）"
+            }
+          ],
+          "quantity": 9,
+          "sellerId": 3331027716,
+          "skuId": 6219007459811
+        }
+      ],
+      "transportFee": "0.00",
+      "itemStatusStr": "在线",
+      "richTextDesc": "{\"type\":null,\"children\":[{\"type\":\"Element\",\"children\":[{\"type\":\"Text\",\"text\":\"MiniMax-M2.7-highspeed极速版订阅，400次模型调用/5小时，支持主流编程工具，OpenClaw agent可用，生成速度很快、开发、学习用～\",\"properties\":{}}],\"properties\":{}},{\"type\":\"Element\",\"children\":[{\"type\":\"Text\",\"text\":\"调不通的帮忙处理\",\"properties\":{}}],\"properties\":{}},{\"type\":\"Element\",\"children\":[{\"type\":\"Text\",\"text\":\"按月订阅，功能正常，需要的朋友可以私聊，喜欢直接拍，细节随时问我～\",\"properties\":{}}],\"properties\":{}},{\"type\":\"Element\",\"children\":[{\"type\":\"Text\",\"text\":\"下单送openclaw视频使用教程\",\"properties\":{}}],\"properties\":{}}],\"properties\":{},\"version\":\"1.0\"}",
+      "wantCntUnit": "人想要",
+      "title": "MiniMax-M2.7极速版软件资源",
+      "idleItemSkuList": [
+        {
+          "features": {
+            "sku_order_num": "0",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1个月",
+            "idleOriginalQuantity": "10"
+          },
+          "itemId": 1036457574142,
+          "quantity": 10,
+          "sellerId": 3331027716,
+          "price": 2600,
+          "propertyList": [
+            {
+              "valueId": -1,
+              "valueText": "1个月",
+              "propertySortOrder": 1,
+              "string": "-1:-1",
+              "valueSortOrder": 0,
+              "actualValueText": "1个月",
+              "propertyText": "周期",
+              "propertyId": -1,
+              "enabled": true,
+              "status": 0
+            }
+          ],
+          "inventoryId": 1179342943195735646,
+          "priceInCent": 2600,
+          "skuId": 6219007459809
+        },
+        {
+          "features": {
+            "sku_order_num": "1",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1周",
+            "idleOriginalQuantity": "4"
+          },
+          "itemId": 1036457574142,
+          "quantity": 4,
+          "sellerId": 3331027716,
+          "price": 800,
+          "propertyList": [
+            {
+              "valueId": -2,
+              "valueText": "1周",
+              "propertySortOrder": 1,
+              "string": "-1:-2",
+              "valueSortOrder": 1,
+              "actualValueText": "1周",
+              "propertyText": "周期",
+              "propertyId": -1,
+              "enabled": true,
+              "status": 0
+            }
+          ],
+          "inventoryId": 1179342943195735647,
+          "priceInCent": 800,
+          "skuId": 6219007459810
+        },
+        {
+          "features": {
+            "sku_order_num": "2",
+            "item_dim": "0",
+            "idlePvPairs": "0#周期^0#1天（体验装）",
+            "idleOriginalQuantity": "9"
+          },
+          "itemId": 1036457574142,
+          "quantity": 9,
+          "sellerId": 3331027716,
+          "price": 150,
+          "propertyList": [
+            {
+              "valueId": -3,
+              "valueText": "1天（体验装）",
+              "propertySortOrder": 1,
+              "string": "-1:-3",
+              "valueSortOrder": 2,
+              "actualValueText": "1天（体验装）",
+              "propertyText": "周期",
+              "propertyId": -1,
+              "enabled": true,
+              "status": 0
+            }
+          ],
+          "inventoryId": 1179342943195735648,
+          "priceInCent": 150,
+          "skuId": 6219007459811
+        }
+      ]
+    }
+  },
+  "ret": ["SUCCESS::调用成功"],
+  "v": "1.0"
+}
